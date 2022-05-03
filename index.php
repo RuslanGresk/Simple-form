@@ -47,11 +47,11 @@ if(!empty($_POST)){
   						</div>
 
 
-	<div class="mb-3">  
-		<label for="email"  class="form-label id='email'">Email address</label>
-		<input type="email" name='email' class="form-control" id="email" aria-describedby="emailHelp">
-		<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-		</div>
+						<div class="mb-3">  
+							<label for="email"  class="form-label id='email'">Email address</label>
+							<input type="email" name='email' class="form-control" id="email" aria-describedby="emailHelp">
+							<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+						</div>
 
     					<div class="mb-3">
 							<label for='address'>Address</label>
@@ -75,8 +75,8 @@ if(!empty($_POST)){
 							<input name='captcha' type="text" class="form-control" id="captcha" ></input>
   						</div>
   
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+						<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
 				</div>
 			</div>
 		</div>
